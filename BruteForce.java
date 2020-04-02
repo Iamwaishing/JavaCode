@@ -11,7 +11,7 @@ public class BruteForce {
                     if(index < string.length() - 1) {
                         loop(index + 1);
                     }
-                    System.out.println(string);
+                    //System.out.println(string);
                     if(string.toString().equals(password)) {
                             System.out.println("password found: " + string);
                             System.out.println("It took: " + convertmillis(System.currentTimeMillis() - start));
